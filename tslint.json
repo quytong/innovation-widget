@@ -1,0 +1,49 @@
+{
+    "extends": ["tslint:recommended"],
+    "linterOptions": {
+        "exclude": [
+            "build/",
+            "node_modules/",
+            "webpack.config.js"
+        ]
+    },
+    "rules": {
+        "arrow-return-shorthand": false,
+        "ban-ts-ignore": false,
+        "completed-docs": false,
+        "no-inferrable-types": false,
+        "no-default-export": false,
+        "no-default-import": false,
+        "no-this-assignment": false,
+        "jsx-boolean-value": false,
+        "jsx-no-multiline-js": false,
+        "jsx-no-lambda": false,
+        "no-submodule-imports": false,
+        "max-line-length": {
+            "severity": "warning",
+            "options": [200]
+        },
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "prefer-function-over-method": false,
+        "trailing-comma": false,
+        "member-ordering": false,
+        "jsx-alignment": false,
+        "quotemark": {
+            "options": [
+                "single",
+                "jsx-double",
+                "avoid-escape"
+            ]
+        },
+        "only-arrow-functions": false,
+        "no-magic-numbers": false,
+        "no-null-keyword": false,
+        "switch-final-break": false,
+        "forin": false,
+        "cyclomatic-complexity": false,
+        "prefer-template": false,
+        "no-unnecessary-class": false,
+        "max-file-line-count": [false]
+    }
+}
